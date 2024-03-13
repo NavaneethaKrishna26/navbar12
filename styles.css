@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    background-image: url(./images/SLI_SoMe_shuttle-scaled.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 10%;
+    font-size: x-large;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+ul li{
+    list-style-type: none;
+   display:inline-block;
+   padding: 10px 20px;
+}
+ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: darkblue;
+    transition: 0.5s;
+   
+}
+ul,li:hover{
+    transform: translate(1px,-2px);
+}
+h1{
+    color: white;
+}
+h1:hover{
+    color: darkblue;
+    transition: 0.4s;
+    transform: translate(1px,-2px);
+}
+span{
+    color: darkblue;
+}
+button{
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: darkblue;
+}
+button:hover{
+    
+    transform: scale(1.2);
+    cursor: pointer;
+}
+span:hover{
+    color: whitesmoke;
+    transition: 0.4s;
+}
+
+@media (max-width:600px){
+    body{
+        padding:0;
+        
+    margin: 0;
+    background-image: url(./images/SLI_SoMe_shuttle-scaled.jpg);
+    width: 100%;
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+    .two{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-shrink: 1;
+        width:100% ;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 30px;
+        padding-left: 5%;
+        padding-right: 10%;
+        font-size: medium;
+        font-family: "Poppins", sans-serif;
+      font-weight: 50px;
+      font-style: normal;
+       
+    }
+    button{
+        position: relative;
+        right: 40px;
+    }
+}
